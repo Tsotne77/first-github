@@ -121,12 +121,13 @@ body{
 /* end geo section */
 
 /* start footer */
-.foot-image{
+.footimg{
     height: 50px;
-    float: left;
-    margin: 8px;
+    display: inline-block;
 }
-.foot-image: : after{
-    ::content ""
-    c
+.divider{
+    background-color: red;
+    width: 5px;
+    height: 50px;
+    display: inline-block;
 }
