@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Hubballi&family=League+Gothic&display=swap');
 
-
 body{
     background-color: #556B2F;
 }
+/* start header style */
 .title-ol{
     margin-left: 150px;
 }
@@ -21,4 +21,112 @@ body{
 }
 .clear{
     clear: both;
+}
+/* end header */
+
+/* start section style*/
+/* box1 style */
+.box1{
+    width: 600px;
+    background-color: grey;
+    float: left;
+    margin: 0 15px;
+}
+.box1-h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-style: italic;
+    color: yellow;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+.box1-image1{
+    height: 100px;
+    float: left;
+    margin: 15px;
+}
+.box1-image2{
+    height: 100px;
+    float: right;
+    margin: 15px;
+}
+/* სურათს რო ჩასვამ, ტექსტს არ უნდა float გაწერა, თორე ქვევით არ მიუსვამს სურათს. სხვა სტილები შეგილია გაუწერო */
+.box1-p1{
+    text-transform: initial;
+    margin: 5px;
+}
+.box1-span1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: blue;
+}
+/*end box1 */
+
+/* start box2 */
+.box2{
+    width: 600px;
+    background-color: grey;
+    float: left;
+    margin: 0 15px;
+}
+
+.box2-h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-style: italic;
+    color: yellow;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+.box2-image1{
+    float: left;
+    height: 100px;
+    margin: 5px;
+
+}
+.box2-image2{
+    float: right;
+    height: 100px;
+    margin: 5px;
+}
+.box2-p1{
+    text-transform: initial;
+    margin: 5px;
+}
+.box2-span1{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: darkmagenta;
+}
+.box2-span2{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: indianred;
+}
+/* end box2 an section */
+
+/* geo section */
+.geo-text1{
+    font-family: 'ALK Sanet';
+    margin: 15px 0 0 10px;
+    width: 600px;
+    float: left;
+}
+.geo-text2{
+    font-family: 'ALK Sanet';
+    margin: 15px 0 0 35px;
+    width: 600px;
+    float: left;
+}
+/* end geo section */
+
+/* start footer */
+.foot-image{
+    height: 50px;
+    float: left;
+    margin: 8px;
+}
+.foot-image: : after{
+    ::content ""
+    c
 }
